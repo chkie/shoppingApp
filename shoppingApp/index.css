@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #3C3B3B;
+    color: #432000;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    color: #E88FE5;
+    background-color: #F7F7F7;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+
+
+button {
+    color: #FDFDFD;
+    background-color: #8C52FF;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+button:active {
+  background-color: #E88FE5; 
+  border: none;/* Dunkleres Blau beim Klicken */
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: #BC9AFF;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
